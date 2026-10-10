@@ -45,9 +45,9 @@ That's all. There is nothing to configure.
 
 ## Installation
 
-PokeTaka Alert is installed manually from this repository. It takes about a minute.
+PokeTaka Alert is installed manually from the Releases page of this repository. It takes about a minute.
 
-1. **Download the extension.** On this GitHub page, click the green **Code** button, then **Download ZIP**.
+1. **Download the extension.** Go to the [latest release](../../releases/latest) of this repository and download the file `PokeTaka-Alert-v1.0.0.zip` from the **Assets** section at the bottom. (You do not need the files called *Source code*.)
 2. **Unzip the file** somewhere you will not delete it later (for example, a folder in your Documents). Chrome needs the folder to stay in place.
 3. **Open the extensions page.** In Chrome, type `chrome://extensions` in the address bar and press Enter.
 4. **Turn on Developer mode.** Use the switch in the top-right corner.
@@ -60,7 +60,7 @@ You are done. Open [poketaka.fr](https://poketaka.fr/home) and leave the tab ope
 
 - **Allow notifications.** If you do not see any alerts, check that Chrome is allowed to show notifications in your system settings, and that *Do Not Disturb* or *Focus mode* is not turned on.
 - **Keep a PokeTaka tab open.** The extension can only notice changes while the page is open in your browser.
-- **Updating.** To install a newer version, download the new ZIP, replace the old folder, and press the reload button on the extension's card in `chrome://extensions`.
+- **Updating.** To install a newer version, download the new ZIP from the [Releases page](../../releases), replace the files in your old folder with the new ones, and press the reload button on the extension's card in `chrome://extensions`.
 
 ## Privacy
 
