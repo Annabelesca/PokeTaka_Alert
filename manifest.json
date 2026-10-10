@@ -1,18 +1,19 @@
-
 {
   "manifest_version": 3,
-  "name": "PokeTaka Favored Type Alert",
-  "version": "1.0.0",
-  "description": "Detecta cambios en el Favored Type de PokeTaka.",
-  "permissions": ["notifications"],
+  "name": "PokeTaka Alert",
+  "version": "1.1",
+  "permissions": ["notifications", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "PokeTaka Alert",
+    "default_icon": { "128": "icon128.png" }
+  },
   "content_scripts": [
     {
-      "matches": ["https://poketaka.fr/*"],
+      "matches": ["https://TU-SITIO-WEB/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
   ],
-  "background": {
-    "service_worker": "background.js"
-  }
+  "icons": { "128": "icon128.png" }
 }
