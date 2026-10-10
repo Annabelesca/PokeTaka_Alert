@@ -20,6 +20,20 @@ PokeTaka shows a *Favoured type* badge on its home page. When that type changes,
 
 When you click the extension icon, the label disappears, which means "alert seen".
 
+## Screenshots
+
+**Desktop notification**
+
+![Notification example](images/notification.png)
+
+**Colored label on the extension icon**
+
+![Toolbar example](images/toolbar.png)
+
+**Colors used for each type**
+
+![Type colors](images/type-colors.png)
+
 ## How it works
 
 1. Keep a PokeTaka tab open in Chrome.
