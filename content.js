@@ -2,6 +2,7 @@
 // PokeTaka Alert - Content script
 // Vigila el icono del "tipo favorecido" en la página y avisa
 // al background cuando cambia.
+// v1.0.0 (2024-06-10) - Annabelesca
 // ============================================================
 
 // --- Configuración (lo único que habrá que tocar si la web cambia) ---
